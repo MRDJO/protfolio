@@ -1,0 +1,111 @@
+
+/**
+*LOGO
+*/
+/* 
+.logo h2{
+    position: relative;
+    text-transform: uppercase;
+    font-family:"FreeMono","Z003","Ani";
+    font-size: 5em;
+    margin-top:-22px;
+    color:var(--background-light);
+    -webkit-text-stroke: 0.2vw #e946467c;
+}
+.logo h2::before{
+    content: attr(data-text);
+    position: absolute;
+    font-weight: 600;
+    top:0;
+    left: 0;
+    width: 0;
+    height: 200%;
+    color:#3f5510;
+    -webkit-text-stroke: 0vw #e946467c;
+    overflow: hidden;
+    animation: animate 7s linear infinite;
+}
+
+@keyframes animate {
+    0%,10%,95%
+    {
+        width: 0;
+    }
+    70%,90%
+    {
+        width: 100%;
+    }
+}
+
+
+
+
+
+ */
+
+
+/**
+
+A supprimer
+
+button{
+    padding: 12px;
+    width:150px;
+    cursor: pointer;
+    color:var(--blue);
+    background: none;
+    border: 1px solid var(--blue);
+    font-family: sans-serif;
+    border-radius: 5px;
+    outline: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.9s;
+}
+button:hover{
+    color:#fff;
+    background: var(--blue);
+}
+**/
+
+WRITER
+
+
+.paragraph h2 span{
+    position: relative;
+}
+.paragraph h2 span::after
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--background-light);
+    border-left: 2px solid #3f5510;
+    animation: writerH2 2s steps(9) forwards;
+
+}
+@keyframes writerH2 {
+    100%{
+        left:100%;
+    }
+    
+}
+
+
+
+    
+    //BLANC
+    border-radius: 8px;
+    background: #f6f5f4;
+    box-shadow: inset 6px 6px 12px #bbbab9,
+                inset -6px -6px 12px #ffffff;
+
+
+    //SOMBRE
+    
+    
+    */
+ 
+                /* box-shadow:  9.91px 9.91px 15px #d9dade, -9.91px -9.91px 15px #fff; */

@@ -1,0 +1,20 @@
+{
+    "name": "orphee/portfolio",
+    "description": "Un portfolio pour une exposition de mes réalisations",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Orphee Djahoui",
+            "email": "orpheedjahoui@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^6.2",
+        "altorouter/altorouter": "^2.0",
+        "filp/whoops": "^2.14"
+    }
+}
